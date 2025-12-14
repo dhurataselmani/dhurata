@@ -1,0 +1,44 @@
+header{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .left span{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 45px;
+}
+header .left span a{
+    text-decoration: nones;
+}
+header .left ul{
+    display: inline;
+}
+header .left ul li a{
+    text-decoration: none;
+}
+header ul li{
+    text-decoration: none;
+    display: inline;
+    column-gap: 5px;
+    align-items: center;
+    padding: 5px;
+}
+.heroBanner{
+    background-image: url(./IMAGES/istockphoto-1031384160-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+text-align: left;
+padding: 150px;
+}
+.heroBanner h1{
+    font-size: 50px;
+}
